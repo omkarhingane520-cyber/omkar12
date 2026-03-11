@@ -1,25 +1,136 @@
-<!DOCTYPE html>
+[7:07 AM, 3/10/2026] : <!DOCTYPE html>
 <html>
 <head>
-<title>Food Order Website</title>
+<title>Agriculture Farm</title>
 
 <style>
 
 body{
-font-family:Arial;
+font-family: Arial;
 margin:0;
-background:#f4f4f4;
+background:#eef7ee;
 }
 
 header{
-background:#ff5733;
+background:green;
 color:white;
-padding:20px;
 text-align:center;
+padding:25px;
 }
 
 nav{
 background:#222;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.section{
+padding:40px;
+text-align:center;
+}
+
+.box{
+background:white;
+width:250px;
+display:inline-block;
+margin:20px;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+.box img{
+width:200px;
+height:150px;
+}
+
+footer{
+background:green;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1> Agriculture Farm</h1>
+<p>Fresh Milk and Organic Farming</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Farm</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="section">
+
+<div class="box">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Milk_glass.jpg">
+<h3>Fresh Milk</h3>
+<p>Pure and fresh milk from our dairy farm.</p>
+</div>
+
+<div class="box">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Butter.jpg">
+<h3>Butter</h3>
+<p>Organic butter made from fresh milk.</p>
+</div>
+
+<div class="box">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Ghee.jpg">
+<h3>Ghee</h3>
+<p>Healthy desi ghee prepared naturally.</p>
+</div>
+
+</div>
+
+<footer>
+<p>Diploma Engineering Project</p>
+</footer>
+
+</body>
+</html>
+[7:11 AM, 3/10/2026] Omkar: <!DOCTYPE html>
+<html>
+<head>
+<title>Online Food Ordering</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f8f8f8;
+}
+
+header{
+background:#ff4d4d;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#333;
 text-align:center;
 padding:12px;
 }
@@ -41,10 +152,11 @@ text-align:center;
 }
 
 .food{
-display:inline-block;
 background:white;
+width:250px;
+display:inline-block;
 margin:20px;
-padding:15px;
+padding:20px;
 border-radius:10px;
 box-shadow:0 0 10px gray;
 }
@@ -56,17 +168,17 @@ border-radius:10px;
 }
 
 button{
-background:#ff5733;
+background:#ff4d4d;
 color:white;
 border:none;
 padding:10px 20px;
+margin-top:10px;
 border-radius:5px;
-font-size:16px;
 cursor:pointer;
 }
 
 button:hover{
-background:#e74c3c;
+background:#cc0000;
 }
 
 footer{
@@ -74,17 +186,18 @@ background:#222;
 color:white;
 text-align:center;
 padding:15px;
-margin-top:20px;
+margin-top:30px;
 }
 
 </style>
+
 </head>
 
 <body>
 
 <header>
-<h1>Online Food Ordering Website</h1>
-<p>Delicious Food Anytime</p>
+<h1>Online Food Ordering</h1>
+<p>Delicious Food at Your Doorstep</p>
 </header>
 
 <nav>
@@ -96,33 +209,38 @@ margin-top:20px;
 
 <div class="container">
 
-<h2>Popular Foods</h2>
-
 <div class="food">
-<img src="burger1.jpg">
-<h3>Burger</h3>
-<p>Price: ₹120</p>
-<button>Order Now</button>
-</div>
-
-<div class="food">
-<img src="pizza.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Supreme_pizza.jpg">
 <h3>Pizza</h3>
 <p>Price: ₹250</p>
 <button>Order Now</button>
 </div>
 
 <div class="food">
-<img src="frizes.jpg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Hamburger.jpg">
+<h3>Burger</h3>
+<p>Price: ₹120</p>
+<button>Order Now</button>
+</div>
+
+<div class="food">
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/French_fries.jpg">
 <h3>French Fries</h3>
-<p>Price: ₹90</p>
+<p>Price: ₹100</p>
+<button>Order Now</button>
+</div>
+
+<div class="food">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Fried_rice.jpg">
+<h3>Fried Rice</h3>
+<p>Price: ₹180</p>
 <button>Order Now</button>
 </div>
 
 </div>
 
 <footer>
-<p>© 2026 Online Food Order Website</p>
+<p>Diploma Engineering HTML Project</p>
 </footer>
 
 </body>
